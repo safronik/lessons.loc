@@ -12,8 +12,12 @@ require_once( 'handlers/handler_register.php' ); ?>
     <script src="js/common.js"></script>
 </head>
 <body>
-<div class="div-center">
-	<?php require_once( 'forms/form_register.php' ); ?>
+<p align="center"><h1>Воткнул пока заглушку, чтоб  не засрали сайт регистрациями.</h1></p>;
+<!-- Раскомментить 16-26 убрать die с 17 -->
+
+
+<!-- <div class="div-center">
+	<?php die; require_once( 'forms/form_register.php' ); ?>
 </div>
 	<?php if (isset ($_COOKIE['user_logged'])) {
 	    ?>
@@ -21,7 +25,7 @@ require_once( 'handlers/handler_register.php' ); ?>
                     <?php require_once( 'forms/form_userinfo.php' ); ?>
                     </div>
 
-        <?php } ?>
-
+       <?php } ?>
+-->
 </body>
 </html>
