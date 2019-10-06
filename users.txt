@@ -1,0 +1,3 @@
+user1,user1@mail.ru,alien,admin,123123,limiter
+login13,login13@mail.ru,male,subscriber,123123,limiter
+name123,s@cleantalk.org,female,editor,123123,limiter

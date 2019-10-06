@@ -1,0 +1,78 @@
+input, select, button, textarea{
+    display: block;
+    margin: 3%; padding: 2%;
+    font-size: 15px;
+    width: 90%;
+}
+
+    input[type=radio]{
+        display: inline-block;
+        width: auto;
+    }
+    .regform-textarea{
+        height: 120px;
+        border-style: outset;
+        border-color: burlywood;
+        border-width: 6px;
+        margin-left: 6px;
+        border-radius: 20px;
+        background-color: beige;
+}
+    .reform-button{
+     margin-left: 2%;
+     width:96%;
+        background-color: beige;
+    }
+    /* Inputs */
+    .regform-input{
+        background-color: antiquewhite;
+    }
+        .regform-input--text{
+            color: black;
+        }
+
+        .regform-input--radio_label{
+            margin-left:9%;
+            font-size:15px;
+        }
+
+        .regform-input--radio{
+            margin-left: 1%;
+        }
+
+        .regform-input--range{
+            color: black;
+        }
+        
+        .regform-select{
+            margin-left: 5%;
+        }
+    /*Divs*/
+        .regform-div{
+            border-style: outset;
+            border-color: burlywood;
+            border-width: 4px;
+            padding: 1%;
+            background-color: bisque;
+            margin:5px;
+            border-radius: 20px;
+        }
+        .regform-global_div{
+            border-style: solid;
+            border-color: #cda776;
+            border-width: 4px;
+            padding: 5%;
+            background-color: bisque;
+            border-radius: 20px;
+            margin-top: 15%;
+            margin-bottom: 15%;
+        }
+
+        .message-logged_in{
+            margin: auto;
+            margin-top: 2%;
+            width: 400px;
+            padding:2%;
+        }
+
+
